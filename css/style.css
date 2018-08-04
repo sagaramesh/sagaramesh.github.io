@@ -1,9 +1,14 @@
+@font-face {
+font-family: "Avenir";
+src: url("css/fonts/AvenirLTStd-Medium.otf");
+}
+
 body {
   margin: 40px 0;
   font-family: 'Lato', sans-serif;
   font-size: 18px;
   font-weight: 500;
-  background-color: #161b22;
+  background-color: #151515;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -23,7 +28,7 @@ h1 + p, p + p {
   margin-top: 10px;
 }
 
-.content {
+.content-old {
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   color: #ffffff;
@@ -31,6 +36,26 @@ h1 + p, p + p {
   max-width: 65em;
   padding: 30px 80px;
   align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content {
+  font-family: 'AvenirLTStd-Medium', 'Lato' sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 30px 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer {
+  font-family: 'AvenirLTStd-Medium', 'Lato' sans-serif;
+  font-size: 16px;
+  color: #808080;
+  padding: 20px 70px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -104,7 +129,8 @@ h1 + p, p + p {
 }
 
 .card-info {
-  padding: 20px;
+  padding-left: 15px;
+  padding-bottom: : 10px;
   position: absolute;
   bottom: 0;
   color: #fff;
@@ -113,8 +139,9 @@ h1 + p, p + p {
   transition: 0.5s 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .card-info p {
+  font-family: 'AvenirLTStd-Medium', 'Lato' sans-serif;
   opacity: 0;
-  text-shadow: black 0 2px 3px;
+  text-shadow: black 0 0px 0px;
   transition: 0.5s 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .card-info * {
@@ -127,7 +154,7 @@ h1 + p, p + p {
   top: 0;
   left: 0;
   z-index: 0;
-  width: 500%;
+  width: 800%;
   height: 100%;
   background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.5) 100%);
   background-blend-mode: overlay;
@@ -141,5 +168,5 @@ h1 + p, p + p {
   font-family: 'Lato', sans-serif;
   font-size: 28px;
   font-weight: 500;
-  text-shadow: rgba(0, 0, 0, 0.3) 0 2px 2px;
+  text-shadow: rgba(0, 0, 0, 0.1) 0 1px 1px;
 }
