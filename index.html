@@ -17,32 +17,32 @@
 	<p>Sagar Ramesh <a style="color: #808080"> &nbsp; &middot; &nbsp; Select Works</a></p>
 </div>
 <div id="app" class="container">
-  <card data-image="img/ollie_still.png">
+  <card data-image="img/ollie_still.png" onclick="openOllie()">
     <h1 slot="header"><a style="text-decoration:none; color:#ffffff" target="_blank" href="https://medium.com/@sagarramesh/ollie-78388ee3a778"></a></h1>
     <p slot="content"><a style="text-decoration:none; color:#ffffff" target="_blank" href="https://medium.com/@sagarramesh/ollie-78388ee3a778">Ollie</a></p>
   </card>
 
-  <card data-image="img/roomscale_still.png">
+  <card data-image="img/roomscale_still.png" onclick="openRoomscale()">
     <h1 slot="header"><a style="text-decoration:none; color:#ffffff" target="_blank" href="https://medium.com/room-scale-vr-experiments"></a></h1>
     <p slot="content"><a style="text-decoration:none; color:#ffffff" target="_blank" href="https://medium.com/room-scale-vr-experiments">Room-scale VR</a></p>
   </card>
 
-  <card data-image="img/mobilevr_still.png">
+  <card data-image="img/mobilevr_still.png" onclick="openMobileVR()">
     <h1 slot="header"><a style="text-decoration:none; color:#ffffff" target="_blank" href="https://medium.com/@sagarramesh/mobile-vr-experiments-83e4979c5f3"></a></h1>
     <p slot="content"><a style="text-decoration:none; color:#ffffff" target="_blank" href="https://medium.com/@sagarramesh/mobile-vr-experiments-83e4979c5f3">Mobile VR</a></p>
   </card>
 
-  <card data-image="img/sandbox_still.png">
+  <card data-image="img/sandbox_still.png" onclick="openSandbox()">
     <h1 slot="header"><a style="text-decoration:none; color:#ffffff" target="_blank" href="https://medium.com/@sagarramesh/sandbox-vr-317b0d88bd5a"></a></h1>
     <p slot="content"><a style="text-decoration:none; color:#ffffff" target="_blank" href="https://medium.com/@sagarramesh/sandbox-vr-317b0d88bd5a">Sandbox VR</a></p>
   </card>
 
-  <card data-image="img/dialog_still.png">
+  <card data-image="img/dialog_still.png" onclick="openDialog()">
     <h1 slot="header"><a style="text-decoration:none; color:#ffffff" target="_blank" href="https://medium.com/@sagarramesh/dialog-3800df42a326"></a></h1>
     <p slot="content"><a style="text-decoration:none; color:#ffffff" target="_blank" href="https://medium.com/@sagarramesh/dialog-3800df42a326">Dialog</a></p>
   </card>
 
-  <card data-image="img/animation_still.png">
+  <card data-image="img/animation_still.png" onclick="openAnim()">
     <h1 slot="header"><a style="text-decoration:none; color:#ffffff" target="_blank" href="https://vimeo.com/sagarramesh"></a></h1>
     <p slot="content"><a style="text-decoration:none; color:#ffffff" target="_blank" href="https://vimeo.com/sagarramesh">Animation &amp; Illustration</a></p>
   </card>
@@ -50,12 +50,32 @@
 </div>
 <div class="footer">
 	<p><a style="text-decoration:none; color: #808080" target="_blank" href="http://twitter.com/sawgur">Twitter</a>
-    <a style="text-decoration:none; color: #808080" target="_blank" href="https://www.behance.net/sagarramesh"> &nbsp; &middot; &nbsp;Behance</a> 
     <a style="text-decoration:none; color: #808080" target="_blank" href="https://www.linkedin.com/in/sagaramesh/"> &nbsp; &middot; &nbsp;LinkedIn</a>
     <a style="text-decoration:none; color: #808080" target="_blank" href="http://github.com/sagaramesh"> &nbsp; &middot; &nbsp;Github</a>
-    <a style="text-decoration:none; color: #808080" target="_blank" href="http://docs.google.com/spreadsheets/d/1hKNA9Kel9QZttDye60OUs4cP7ZmVecOsS7vhO_VRLAc/edit#gid=0"> &nbsp; &middot; &nbsp;Reading</a></p>
+    <a style="text-decoration:none; color: #808080" target="_blank" href="http://docs.google.com/spreadsheets/d/1hKNA9Kel9QZttDye60OUs4cP7ZmVecOsS7vhO_VRLAc/edit#gid=0"> &nbsp; &middot; &nbsp;Reading</a>
+    <a style="text-decoration:none; color: #808080" target="_blank" href="mailto:sagarram@usc.edu"> &nbsp; &middot; &nbsp;Contact</a></p>
 </div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js'></script>
   <script src="js/index.js"></script>
+  <script>
+function openOllie() {
+    window.open("https://medium.com/@sagarramesh/ollie-78388ee3a778");
+}
+function openRoomscale() {
+    window.open("https://medium.com/room-scale-vr-experiments");
+}
+function openMobileVR() {
+    window.open("https://medium.com/@sagarramesh/mobile-vr-experiments-83e4979c5f3");
+}
+function openSandbox() {
+    window.open("https://medium.com/@sagarramesh/sandbox-vr-317b0d88bd5a");
+}
+function openDialog() {
+    window.open("https://medium.com/@sagarramesh/dialog-3800df42a326");
+}
+function openAnim() {
+    window.open("https://vimeo.com/sagarramesh");
+}
+</script>
 </body>
 </html>
