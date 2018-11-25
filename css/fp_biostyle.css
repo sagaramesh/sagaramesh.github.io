@@ -137,6 +137,22 @@ h1 + p, p + p {
             animation: fadein 2s;
 }
 
+.switchbios {
+  font-family: 'AvenirLTStd-Medium', 'Lato' sans-serif;
+  font-size: 16px;
+  color: #000000;
+  padding: 0px 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
