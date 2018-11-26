@@ -238,7 +238,8 @@ h1 + p, p + p {
 }
 .card-wrap:hover .card {
   transition: 0.5s cubic-bezier(0.23, 1, 0.32, 1), box-shadow 2s cubic-bezier(0.23, 1, 0.32, 1);
-  box-shadow: rgba(255, 255, 255, 0.1) 0 0 40px 5px, white 0 0 0 0.65px, rgba(0, 0, 0, 1) 0 30px 60px 0, inset #333 0 0 0 0px, inset white 0 0 0 0px;
+  /* SAFARI FIX IN THIS LINE - SECOND RGBA (A) VALUE CHANGED TO ZERO */ 
+  box-shadow: rgba(255, 255, 255, 0.1) 0 0 40px 5px, white 0 0 0 0.65px, rgba(0, 0, 0, 0) 0 30px 60px 0, inset #333 0 0 0 0px, inset white 0 0 0 0px;
 }
 
 .card {
@@ -249,7 +250,7 @@ h1 + p, p + p {
   background-color: #333;
   overflow: hidden;
   border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.66) 0 30px 60px 0, inset #333 0 0 0 10px, inset rgba(255, 255, 255, 0) 0 0 0 6px;
+  box-shadow: rgba(0, 0, 0, 0) 0 30px 60px 0, inset #333 0 0 0 10px, inset rgba(255, 255, 255, 0) 0 0 0 6px;
   transition: 0.5s cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
 
