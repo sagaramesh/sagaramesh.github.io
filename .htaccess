@@ -2,3 +2,5 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
+RewriteCond %{HTTP_HOST} ^https://sagarramesh.com/writing
+RewriteRule ^(.*) https://www.notion.so/sagarramesh/Sagar-s-Notes-29eb5465028346a9a069d56ed32e33e8 [P]
