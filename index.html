@@ -8,87 +8,177 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-143595784-1');
+
+  function openYT() {
+  window.open("https://www.youtube.com/channel/UCnutpdQUfdiy-PTiyTADOGw/featured")
+}
+function openGithub() {
+  window.open("https://github.com/sagaramesh")
+}
+function openSubstack() {
+  window.open("https://sagar.substack.com/")
+}
 </script>
   <meta charset="UTF-8">
-  <title>Sagar Ramesh</title>
+  <title>Home - Sagar Ramesh</title>
   <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
 </head>
 
-<body>
-<div class="content">
-	<p><b><a style="text-decoration:none; color:#ffffff" href="https://sagarramesh.com/">Sagar Ramesh</b></a> <a style="color: #808080"> &nbsp; &middot; &nbsp; Select Works</a></p>
-</div>
-<div id="app" class="container">
-  
-  <card data-image="img/loopkit_thumb.png" onclick="openLoopkit()">
-    <h1 slot="header"><a style="text-decoration:none; color:#ffffff" target="_blank" href="https://gum.co/BJGxn"></a></h1>
-    <p slot="content"><a style="text-decoration:none; color:#ffffff" target="_blank" href="https://gum.co/BJGxn">Loop Kit</a></p>
-  </card>
+<body style="background-color:#000000;">
 
-  <card data-image="img/ollie_still.png" onclick="openOllie()">
-    <h1 slot="header"><a style="text-decoration:none; color:#ffffff" target="_blank" href="http://ollievr.com"></a></h1>
-    <p slot="content"><a style="text-decoration:none; color:#ffffff" target="_blank" href="http://ollievr.com">Ollie</a></p>
-  </card>
+<!-- Page Header -->
 
-  <card data-image="img/tbz_still.png" onclick="openTBZ()">
-    <h1 slot="header"><a style="text-decoration:none; color:#ffffff" target="_blank" href="https://youtu.be/04Bjs53EtkM"></a></h1>
-    <p slot="content"><a style="text-decoration:none; color:#ffffff" target="_blank" href="https://youtu.be/04Bjs53EtkM">Trailblazer (Short Film)</a></p>
-  </card>
-
-  <card data-image="img/mobilevr_still.png" onclick="openMobileVR()">
-    <h1 slot="header"><a style="text-decoration:none; color:#ffffff" target="_blank" href="https://medium.com/@sagarramesh/mobile-vr-experiments-83e4979c5f3"></a></h1>
-    <p slot="content"><a style="text-decoration:none; color:#ffffff" target="_blank" href="https://medium.com/@sagarramesh/mobile-vr-experiments-83e4979c5f3">Mobile VR</a></p>
-  </card>
-
-  <card data-image="img/roomscale_still.png" onclick="openRoomscale()">
-    <h1 slot="header"><a style="text-decoration:none; color:#ffffff" target="_blank" href="https://medium.com/room-scale-vr-experiments"></a></h1>
-    <p slot="content"><a style="text-decoration:none; color:#ffffff" target="_blank" href="https://medium.com/room-scale-vr-experiments">Room-scale VR</a></p>
-  </card>
-
-  <card data-image="img/sandbox_still.png" onclick="openSandbox()">
-    <h1 slot="header"><a style="text-decoration:none; color:#ffffff" target="_blank" href="https://medium.com/@sagarramesh/sandbox-vr-317b0d88bd5a"></a></h1>
-    <p slot="content"><a style="text-decoration:none; color:#ffffff" target="_blank" href="https://medium.com/@sagarramesh/sandbox-vr-317b0d88bd5a">Sandbox VR</a></p>
-  </card>
+<div class="page-header-container" style="background-color:#000000;">
+  <div class="page-header">
+    <h2><a class="title" href="about.html">Sagar Ramesh</a></h2>
+  </div>
 </div>
 
-<div class="footer">
-	<p><a style="text-decoration:none; color: #808080" href="about">About</a>
+<!-- Animation - Title and subtitle -->
 
-    <a style="text-decoration:none; color: #808080" target="_blank" href="https://sagar.substack.com/"> &nbsp; &middot; &nbsp;Writing</a>
-
-    <a style="text-decoration:none; color: #808080" target="_blank" href="https://gumroad.com/sagarramesh"> &nbsp; &middot; &nbsp;Gumroad</a>
-
-    <a style="text-decoration:none; color: #808080" target="_blank" href="http://github.com/sagaramesh"> &nbsp; &middot; &nbsp;Github</a>
-
-    <a style="text-decoration:none; color: #808080" target="_blank" href="mailto:sagarramesh97@gmail.com"> &nbsp; &middot; &nbsp;Contact</a></p>
+<div class="header-container" style="background-color:#000000;">
+  <div class="header-content">
+    <h1>Animation</h1>
+    <h2 style="color:#909090">Loops and short films</h2>
+  </div>
 </div>
 
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js'></script>
-  <script src="js/index.js"></script>
-  <script>
-function openOllie() {
-    window.open("http://ollievr.com");
-}
-function openRoomscale() {
-    window.open("https://medium.com/room-scale-vr-experiments");
-}
-function openMobileVR() {
-    window.open("https://medium.com/@sagarramesh/mobile-vr-experiments-83e4979c5f3");
-}
-function openSandbox() {
-    window.open("https://medium.com/@sagarramesh/sandbox-vr-317b0d88bd5a");
-}
-function openTBZ() {
-    window.open("https://youtu.be/04Bjs53EtkM");
-}
-function openLoopkit() {
-    window.open("https://gum.co/BJGxn");
-}
-</script>
+<!-- Carousel -->
+
+<div class="carousel" style="background-color:#000000">
+  <div class="carousel-wrapper">
+    <!-- Move first carousel item over -->
+    <div class="carousel-padder"></div>
+
+      <!-- Carousel Item -->
+
+      <div class="card" onClick="parent.open('https://www.instagram.com/hundredloops/')">
+        <div class="card-image">
+          <img src="img/100loops_thumbnail.png" class="image" width="352" height="198">
+          <div class="card-CTA-container">
+            <div class="card-CTA"><b>Browse</b></div>
+          </div>
+        </div>
+        <div class="card-title" style="color:white">100 Loops</div>
+        <div class="card-subtitle" style="color:#909090">Animated with real-time tools</div>
+      </div>
+
+      <!-- Carousel Item -->
+
+      <div class="card" onClick="parent.open('https://youtu.be/04Bjs53EtkM')">
+        <div class="card-image">
+          <img src="img/tbz_thumbnail.png" class="image" width="352" height="198">
+          <div class="card-CTA-container">
+            <div class="card-CTA"><b>Play</b></div>
+          </div>
+        </div>
+        <div class="card-title" style="color:white">Trailblazer (2019)</div>
+        <div class="card-subtitle" style="color:#909090">Short film made with Ollie</div>
+      </div>
+
+  </div>
+</div>
+<div class="carousel-button" style="background-color:#000000;">
+  <button class="light" onclick="openYT()">Watch more →</button>
+</div>
+
+<!-- Tech - Title and subtitle -->
+
+<div class="header-container" style="background-color:#ffffff;">
+  <div class="header-content">
+    <h1 style="color: #202020">Technology</h1>
+    <h2 style="color:#909090">Apps, toys, and tools</h2>
+  </div>
+</div>
+
+<!-- Carousel -->
+
+<div class="carousel" style="background-color:#ffffff">
+  <div class="carousel-wrapper">
+    <!-- Move first carousel item over -->
+    <div class="carousel-padder"></div>
+
+      <!-- Carousel Item -->
+
+      <div class="card" onClick="parent.open('https://gumroad.com/l/BJGxn')">
+        <div class="card-image">
+          <img src="img/loopkit_thumbnail.png" class="image" width="198" height="198">
+          <div class="card-CTA-container">
+            <div class="card-CTA"><b>View</b></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carousel Item -->
+
+      <div class="card" onClick="parent.open('https://www.oculus.com/experiences/rift/2664057663668988/')">
+        <div class="card-image">
+          <img src="img/ollie_thumbnail.png" class="image" width="198" height="198">
+          <div class="card-CTA-container">
+            <div class="card-CTA"><b>View</b></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carousel Item -->
+
+      <div class="card" onClick="parent.open('https://gumroad.com/sagarramesh#QJqnF')">
+        <div class="card-image">
+          <img src="img/chatroom_thumbnail.png" class="image" width="198" height="198">
+          <div class="card-CTA-container">
+            <div class="card-CTA"><b>View</b></div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+</div>
+<div class="carousel-button" style="background-color:#ffffff;">
+  <button class="dark" onclick="openGithub()">Explore my code →</button>
+</div>
+
+<!-- Writing - Title and subtitle -->
+
+<div class="header-container" style="background-color:#000000;">
+  <div class="header-content">
+    <h1>Writing</h1>
+    <h2 style="color:#909090">Thinking in public</h2>
+  </div>
+</div>
+
+<!-- Text List -->
+
+<div class="text-list" style="background-color:#000000;">
+  <div class="text-item">
+    <h5><a class="list" target="_blank" href="https://sagar.substack.com/p/minimum-viable-movies">Minimum Viable Movies →</a></h5>
+    <h6 style="color:#909090">What if animated movies were made like great technology is built?</h6>
+  </div>
+  <div class="text-item">
+    <h5><a class="list" target="_blank" href="https://sagar.substack.com/p/building-a-creative-universe">Building a Creative Universe →</a></h5>
+    <h6 style="color:#909090">Unveiling an artist's vision from different angles.</h6>
+  </div>
+  <div class="text-item">
+    <h5><a class="list" target="_blank" href="https://sagar.substack.com/p/stories-you-share">Stories You Share →</a></h5>
+    <h6 style="color:#909090">Telling stories that are designed to spread.</h6>
+  </div>
+</div>
+
+<div class="carousel-button" style="background-color:#000000;">
+  <button class="light" onclick="openSubstack()">Read more →</button>
+</div>
+
+<!-- Page Footer -->
+
+<div class="footer-container" style="background-color:#000000;">
+  <div>
+    <p class="footer">Thanks for visiting. Get in touch via <a class="footer" href="https://sagarramesh.com/">email</a> or <a class="footer" href="https://sagarramesh.com/">Twitter</a>.</p>
+  </div>
+</div>
+
 </body>
 </html>
